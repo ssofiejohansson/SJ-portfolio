@@ -11,6 +11,6 @@ import ProjectCarousel from '../components/ProjectCarousel.vue';
 
 <style scoped>
 .projects {
-  min-height: calc(100vh - 60px);
+   height: 100dvh;
 }
 </style>

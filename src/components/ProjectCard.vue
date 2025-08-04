@@ -76,7 +76,6 @@ const popupProject = ref(null)
   flex-direction: column;
   gap: 5px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  margin: 20px 0px;
 }
 
 .project-heading {
@@ -127,7 +126,7 @@ const popupProject = ref(null)
   font-style: italic;
   font-size: 14px;
 }
-
+/* 
 .popup-overlay {
   position: fixed;
   inset: 0;
@@ -142,7 +141,7 @@ const popupProject = ref(null)
   max-width: 90vw;
   max-height: 80vh;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
-}
+} */
 
 .close-button {
   position: absolute;

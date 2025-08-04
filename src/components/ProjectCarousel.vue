@@ -52,7 +52,7 @@ const projects = projectData.projects
 .carousel-wrapper {
   width: 100%;
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,12 +77,12 @@ const projects = projectData.projects
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  font-size: 60px;
+  font-size: 30px;
 }
 
 .swiper-pagination-bullet {

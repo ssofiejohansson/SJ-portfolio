@@ -1,9 +1,10 @@
-import Home from '../views/Home.vue'
-import Contact from '../views/Contact.vue'
+import { createRouter, createWebHistory } from 'vue-router'
+
 import About from '../views/About.vue'
-import Skills from '../views/Skills.vue'
+import Contact from '../views/Contact.vue'
+import Home from '../views/Home.vue'
 import Projects from '../views/Projects.vue'
-import { createRouter, createWebHistory } from 'vue-router' // Adjust if you haven't created this yet
+import Skills from '../views/Skills.vue'
 
 const routes = [
   {

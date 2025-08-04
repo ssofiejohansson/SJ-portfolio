@@ -19,7 +19,7 @@
 .split-layout {
   display: flex;
   flex-direction: row;
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .background-section {
