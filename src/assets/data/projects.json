@@ -1,6 +1,26 @@
 {
   "projects": [
     {
+      "name": "SubscriBee",
+      "info": "SubscriBee is a subscription management app built with React that helps users track and organize their subscriptions. It uses Zustand for state management and Material Tailwind for styling. Users can add, sort, filter and set reminders for subscriptions. The backend is powered by Node.js, Express.js and MongoDB, with Nodemailer for email reminders and node-cron for scheduling. Data is saved with localStorage so subscriptions remain available for the user between sessions.",
+      "image": "./img/subscribee.webp",
+      "alt": "SubscriBee App",
+      "collab": "Team project",
+      "tags": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Material Tailwind",
+        "Zustand",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Nodemailer"
+      ],
+      "netlify": "https://subscribee-project.netlify.app/",
+      "github": "https://github.com/ssofiejohansson/project-final"
+    },
+    {
       "name": "Still not done",
       "info": "Still Not Done is a to-do app built with React that helps users manage their tasks with ease. It uses Zustand for state management and styled-components for styling, offering a smooth and responsive user experience. Users can add new tasks, mark them as complete, delete them and reorder them in the list. Completed tasks appear in a separate section to keep things organized. The app also uses localStorage so the task list is saved between sessions and remains available even after the browser is closed.",
       "image": "./img/todo.webp",
@@ -18,7 +38,7 @@
     },
     {
       "name": "Portfolio 2.0",
-      "info": "This responsive and interactive portfolio is built with Vue showcasing projects, a tag cloud, animations and a Swiper carousel. Focused on modular design and component reusability.",
+      "info": "This portfolio is a responsive and interactive portfolio built with Vue that highlights projects in a clean and engaging way. It features a tag cloud for easy navigation, smooth animations, and a Swiper carousel to showcase work dynamically. The project emphasizes modular design and component reusability, making it easy to maintain and expand with new features or content over time.",
       "image": "./img/portfolio2.webp",
       "alt": "Portfolio",
       "collab": "Solo project",
@@ -28,7 +48,7 @@
         "Swiper",
         "Component Architecture"
       ],
-      "netlify": "https://your-portfolio-url.netlify.app",
+      "netlify": "https://ssofiejohansson.netlify.app",
       "github": "https://github.com/your-username/portfolio-vue"
     },
     {

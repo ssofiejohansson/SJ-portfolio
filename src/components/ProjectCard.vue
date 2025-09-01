@@ -22,9 +22,6 @@
         💻 GitHub
       </a>
       
-      <!-- <button v-if="project.image" @click="popupProject = project">
-        🖼️ Demo
-      </button> -->
     </div>
 
     <div class="tag-container">
