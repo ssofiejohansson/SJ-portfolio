@@ -36,20 +36,6 @@
       </span>
     </div>
 
-    <!-- Image Popup -->
-    <div
-      v-if="popupProject"
-      class="popup-overlay"
-      @click="popupProject = null"
-    >
-      <button class="close-button" @click.stop="popupProject = null">×</button>
-      <img
-        class="popup-img"
-        :src="popupProject.image"
-        :alt="popupProject.alt"
-        @click.stop
-      />
-    </div>
   </div>
 </template>
 
@@ -123,22 +109,6 @@ const popupProject = ref(null)
   font-style: italic;
   font-size: 14px;
 }
-/* 
-.popup-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(30, 30, 30, 0.75);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 9999;
-}
-
-.popup-img {
-  max-width: 90vw;
-  max-height: 80vh;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
-} */
 
 .close-button {
   position: absolute;
