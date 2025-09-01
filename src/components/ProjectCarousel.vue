@@ -6,11 +6,10 @@
     :slides-per-view="1"
     :space-between="25"
     :breakpoints="{
-      640: { slidesPerView: 1 },
-      768: { slidesPerView: 2 },
-      1024: { slidesPerView: 3 },
-      1280: { slidesPerView: 4 },
-      1536: { slidesPerView: 5 }
+    640: { slidesPerView: 1 },   // small tablet
+  768: { slidesPerView: 2 },   // tablet
+  1024: { slidesPerView: 3 },  // small laptop
+  1280: { slidesPerView: 4 }   // desktop
     }"
     navigation
     pagination
@@ -43,7 +42,7 @@ const projects = projectData.projects
 
 .project-carousel {
   width: 100%;
-  padding: 24px;
+  padding: 44px;
   display: flex;
   justify-content: center;
   align-items: center;

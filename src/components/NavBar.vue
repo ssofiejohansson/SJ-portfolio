@@ -115,7 +115,7 @@ nav {
   .desktop-menu {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     position: fixed;
     top: 0;
@@ -128,7 +128,6 @@ nav {
   }
   .nav-row {
     flex-direction: row;
-    margin: 0;
     width: 100%;
     text-transform: uppercase;
     font-weight: 900;
@@ -136,6 +135,7 @@ nav {
     letter-spacing: -0.05em;
     display: flex;
     justify-content: space-between;
+    margin-right: 20px;
     align-items: center;
     flex-wrap: nowrap;
 
