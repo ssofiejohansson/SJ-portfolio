@@ -2,7 +2,7 @@
     <section class="contact">
     <SplitLayout>
       <template #text>
-        <h2>So let’s talk frontend, creative chaos or... just play table tennis?</h2>
+        <h2>So let’s talk frontend, creative chaos or... just play table tennis? 🏓</h2>
    
         <p>
           +46 72 442 34 97

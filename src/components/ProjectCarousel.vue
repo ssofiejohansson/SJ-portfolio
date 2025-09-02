@@ -9,7 +9,7 @@
     640: { slidesPerView: 1 },   // small tablet
   768: { slidesPerView: 2 },   // tablet
   1024: { slidesPerView: 3 },  // small laptop
-  1280: { slidesPerView: 4 }   // desktop
+  1380: { slidesPerView: 4 }   // desktop
     }"
     navigation
     pagination
