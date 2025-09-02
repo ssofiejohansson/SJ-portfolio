@@ -4,7 +4,7 @@
   <Swiper
     :modules="[Navigation, Pagination]"
     :slides-per-view="1"
-    :space-between="25"
+    :space-between="20"
     :breakpoints="{
     640: { slidesPerView: 1 },   // small tablet
   768: { slidesPerView: 2 },   // tablet
@@ -42,7 +42,7 @@ const projects = projectData.projects
 
 .project-carousel {
   width: 100%;
-  padding: 44px;
+  padding: 24px;
   display: flex;
   justify-content: center;
   align-items: center;

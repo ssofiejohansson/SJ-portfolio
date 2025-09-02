@@ -64,12 +64,21 @@ import TagCloud from '../components/TagCloud.vue'
 
 .tech-list li {
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .skills-grid {
   max-width: 700px;
   margin-top: 20px;
+}
+
+
+@media (min-width: 720px) {
+
+.tech-list li {
+  font-size: 20px;
+}
+
 }
 
 </style>

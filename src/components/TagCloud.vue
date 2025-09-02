@@ -45,18 +45,16 @@ function shuffleArray(array) {
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value)
 }
-
 function randomizeTags() {
   return skills.map(tag => {
-    const min = 1.2 // rem
-    const max = 1.8 // rem
-    const randomFactor = Math.random() * (max - min) + min
-    const fontWeight = [400, 500, 600, 700, 800][Math.floor(Math.random() * 5)]
+    const sizes = [15, 16, 17, 18, 19]
+    const fontSize = sizes[Math.floor(Math.random() * sizes.length)]
+    const fontWeight = [400, 500, 600, 700][Math.floor(Math.random() * 4)]
 
     return {
       text: tag,
       style: {
-        fontSize: `clamp(${min}rem, ${randomFactor}vw, ${max}rem)`,
+        fontSize: `${fontSize}px`,
         fontWeight
       }
     }
@@ -72,14 +70,22 @@ onMounted(() => {
 .tag-cloud {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
-  padding: 10px;
 }
 
 .tag {
   font-family: 'Futura', Helvetica, sans-serif;
+  font-size: 14px;
 }
+
+@media (min-width: 720px) {
+  .tag-cloud {
+  gap: 15px;
+}
+
+}
+
 
 </style>
