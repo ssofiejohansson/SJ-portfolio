@@ -17,7 +17,7 @@
     </SplitLayout>
     <div class="scrolling-banner">
       <div class="banner-track">
-        <h1><span class="banner-text">Sofie Johansson Frontend Developer</span></h1>
+        <span class="banner-text">Sofie Johansson Frontend Developer</span>
         <span class="banner-text clone">Sofie Johansson Frontend Developer</span>
       </div>
     </div>
