@@ -11,7 +11,7 @@
       </template>
       <template #background>
         <div class="home-background-section">
-          <img src="../assets/profile-img.JPG" alt="Profile" class="profile-img" />
+          <img src="../assets/profile-img.webp" alt="Profile picture of Sofie" class="profile-img" />
         </div>
       </template>
     </SplitLayout>

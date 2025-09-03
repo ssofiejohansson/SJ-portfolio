@@ -12,7 +12,7 @@
       </template>
       <template #background>
         <div class="contact-background-section">
-          <img src="../assets/profile-img-contact.JPG" alt="Profile" class="contact-img" />
+          <img src="../assets/profile-img-contact.webp" alt="Profile picture of Sofie" class="contact-img" />
         </div>
       </template>
     </SplitLayout>
