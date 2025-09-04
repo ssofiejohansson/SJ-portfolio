@@ -3,7 +3,7 @@
     {
       "name": "SubscriBee",
       "info": "SubscriBee is a subscription management app built with React that helps users track and organize their subscriptions. It uses Zustand for state management and Material Tailwind for styling. Users can add, sort, filter and set reminders for subscriptions. The backend is powered by Node.js, Express.js and MongoDB, with Nodemailer for email reminders and node-cron for scheduling. Data is saved with localStorage so subscriptions remain available for the user between sessions.",
-      "image": "./img/subscribee.webp",
+      "image": "/img/subscribee.webp",
       "alt": "SubscriBee App",
       "collab": "Team project",
       "tags": [
@@ -18,12 +18,13 @@
         "Nodemailer"
       ],
       "netlify": "https://subscribee-project.netlify.app/",
-      "github": "https://github.com/ssofiejohansson/project-final"
+      "github": "https://github.com/ssofiejohansson/project-final",
+      "technigoProject": true
     },
     {
       "name": "Still not done",
       "info": "Still Not Done is a to-do app built with React that helps users manage their tasks with ease. It uses Zustand for state management and styled-components for styling, offering a smooth and responsive user experience. Users can add new tasks, mark them as complete, delete them and reorder them in the list. Completed tasks appear in a separate section to keep things organized. The app also uses localStorage so the task list is saved between sessions and remains available even after the browser is closed.",
-      "image": "./img/todo.webp",
+      "image": "/img/todo.webp",
       "alt": "To-do App",
       "collab": "Solo project",
       "tags": [
@@ -34,12 +35,13 @@
         "Zustand"
       ],
       "netlify": "https://stillnotdone.netlify.app/",
-      "github": "https://github.com/ssofiejohansson/js-project-todo"
+      "github": "https://github.com/ssofiejohansson/js-project-todo",
+      "technigoProject": true
     },
     {
       "name": "Portfolio 2.0",
       "info": "This portfolio is a responsive and interactive portfolio built with Vue that highlights projects in a clean and engaging way. It features a tag cloud for easy navigation, smooth animations, and a Swiper carousel to showcase work dynamically. The project emphasizes modular design and component reusability, making it easy to maintain and expand with new features or content over time.",
-      "image": "./img/portfolio2.webp",
+      "image": "/img/portfolio2.webp",
       "alt": "Portfolio",
       "collab": "Solo project",
       "tags": [
@@ -49,12 +51,13 @@
         "Component Architecture"
       ],
       "netlify": "https://ssofiejohansson.netlify.app",
-      "github": "https://github.com/your-username/portfolio-vue"
+      "github": "https://github.com/your-username/portfolio-vue",
+      "technigoProject": false
     },
     {
       "name": "Smile Zone",
       "info": "This is Happy Thoughts 2.0 - a fullstack project built with React and MongoDB. In this version, users must register and log in to post a thought, like a thought or just interact with the app. The backend manages authentication and stores all thoughts securely in a MongoDB database. Messages are displayed in reverse chronological order and the app updates automatically as new thoughts are posted or liked.",
-      "image": "./img/happythoughts2.webp",
+      "image": "/img/happythoughts2.webp",
       "alt": "Happy Thoughts 2.0 App",
       "collab": "Team project",
       "tags": [
@@ -65,12 +68,13 @@
         "Node.js"
       ],
       "netlify": "https://smilezone78.netlify.app/",
-      "github": "https://github.com/ssofiejohansson/js-project-happy-thoughts-frontend"
+      "github": "https://github.com/ssofiejohansson/js-project-happy-thoughts-frontend",
+      "technigoProject": true
     },
     {
       "name": "Happy Thoughts",
       "info": "Happy Thoughts is a simple messaging app built with React that lets users share short, uplifting messages with the world. It connects to a shared public API, allowing anyone to post and read happy thoughts in real time. Messages appear in reverse chronological order, with the newest thoughts at the top. Each thought displays the message content and a like count, which can be increased by clicking the heart button. The app updates automatically after new thoughts are posted or liked, creating a smooth and interactive user experience.",
-      "image": "./img/happythoughts.webp",
+      "image": "/img/happythoughts.webp",
       "alt": "Happy Thoughts App",
       "collab": "Team project",
       "tags": [
@@ -81,12 +85,13 @@
         "JSON"
       ],
       "netlify": "https://reliable-truffle-5d0fac.netlify.app/",
-      "github": "https://github.com/ssofiejohansson/js-project-happy-thoughts"
+      "github": "https://github.com/ssofiejohansson/js-project-happy-thoughts",
+      "technigoProject": true
     },
     {
       "name": "Heather Weather",
       "info": "A sleek weather application built with TypeScript, designed to deliver real-time weather updates and a 4-day forecast. It fetches data from the OpenWeather API and presents it through a clean, animated user interface. The app adapts seamlessly to all screen sizes and includes smooth CSS animations that enhance the overall experience without distraction.",
-      "image": "./img/heatherweather.webp",
+      "image": "/img/heatherweather.webp",
       "alt": "Weather App",
       "collab": "Team project",
       "tags": [
@@ -95,12 +100,13 @@
         "APIs"
       ],
       "netlify": "https://heatherweather.netlify.app/",
-      "github": "https://github.com/ssofiejohansson/js-project-weather-app"
+      "github": "https://github.com/ssofiejohansson/js-project-weather-app",
+      "technigoProject": true
     },
     {
       "name": "Movie Library",
       "info": "The Movie App is an app listing movies built with React that lets users browse popular films and discover new releases. It uses React Router for seamless navigation between pages and styled-components for custom styling. Users can click on any movie to view more details, including the release date, synopsis and additional information. Loading states are handled smoothly to enhance the user experience while data is being fetched.",
-      "image": "./img/movies.webp",
+      "image": "/img/movies.webp",
       "alt": "Movie App",
       "collab": "Team project",
       "tags": [
@@ -110,12 +116,13 @@
         "Styled-components"
       ],
       "netlify": "https://effervescent-praline-71a88e.netlify.app/",
-      "github": "https://github.com/ssofiejohansson/js-project-movies"
+      "github": "https://github.com/ssofiejohansson/js-project-movies",
+      "technigoProject": true
     },
     {
       "name": "Online Quiz",
       "info": "An accessible online quiz about web accessibility, built with semantic HTML, CSS, and JavaScript. The interface supports full keyboard navigation, and all elements were tested for color contrast and ARIA compliance using different tools. The app includes a high contrast mode toggle and an optional reduced motion setting to support a wider range of user needs and preferences.",
-      "image": "./img/quiz.webp",
+      "image": "/img/quiz.webp",
       "alt": "Online Quiz App",
       "collab": "Team project",
       "tags": [
@@ -125,12 +132,13 @@
         "TypeScript"
       ],
       "netlify": "https://accessibility-simon-sofie.netlify.app/",
-      "github": "https://github.com/ssofiejohansson/accessibility-sofie-simon"
+      "github": "https://github.com/ssofiejohansson/accessibility-sofie-simon",
+      "technigoProject": true
     },
     {
       "name": "Portfolio",
       "info": "A responsive portfolio website designed to showcase my skills and projects. Built with React components and props, featuring a clean, accessible design based on Figma guidelines. Key features include a tech skills section, project links to GitHub and Netlify and styled-components for modular styling.",
-      "image": "./img/portfolio.webp",
+      "image": "/img/portfolio.webp",
       "alt": "Portfolio Project",
       "collab": "Solo project",
       "tags": [
@@ -140,12 +148,13 @@
         "JSON"
       ],
       "netlify": "https://portfolioprojectsj.netlify.app/",
-      "github": "https://github.com/ssofiejohansson/js-project-portfolio"
+      "github": "https://github.com/ssofiejohansson/js-project-portfolio",
+      "technigoProject": true
     },
     {
       "name": "Recipe Library",
       "info": "A  web application that helps users discover recipes using dynamic filters and sorting options. Using the Spoonacular API, the app updates in real time as users refine their search, offering a seamless and interactive browsing experience. Key features include multi-filter functionality, a random recipe generator, user feedback when no results are found and interactive step-by-step instructions. To enhance performance and usability, local storage caching, a loading state, and a responsive design were implemented to ensure smooth functionality across all devices.",
-      "image": "./img/recipe.webp",
+      "image": "/img/recipe.webp",
       "alt": "Recipe Library App",
       "collab": "Solo project",
       "tags": [
@@ -155,12 +164,13 @@
         "APIs"
       ],
       "netlify": "https://stirring-yeot-236514.netlify.app/",
-      "github": "https://github.com/ssofiejohansson/js-project-recipe-library"
+      "github": "https://github.com/ssofiejohansson/js-project-recipe-library",
+      "technigoProject": true
     },
     {
       "name": "Business site",
       "info": "The website is designed to be fully responsive, ensuring a great user experience for all devices. It features a navigation bar that adjusts based on the screen size, with a fully functional hamburger menu for mobile and tablet devices. The layout is built using CSS Grid for the main structure and Flexbox for smaller components like the cards and articles. The site includes a responsive header with a video, along with a signup form that supports multiple input types.",
-      "image": "./img/happyhooks.webp",
+      "image": "/img/happyhooks.webp",
       "alt": "Business site",
       "collab": "Solo project",
       "tags": [
@@ -169,7 +179,8 @@
         "JavaScript"
       ],
       "netlify": "https://happyhooks.netlify.app/",
-      "github": "https://github.com/ssofiejohansson/js-project-business-site"
+      "github": "https://github.com/ssofiejohansson/js-project-business-site",
+      "technigoProject": true
     }
   ]
 }

@@ -1,6 +1,7 @@
 <template>
   <SplitLayout>
     <template #text>
+ 
      <p>What started a long time ago with small projects for friends has grown into <i>spending-hours-sometimes-even-full-days</i> with playing around and experimenting with code to create something I find visually appealing.
      </p>
 

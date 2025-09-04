@@ -1,6 +1,14 @@
 <template>
   <div class="card-container">
+    <div class="card-header">
     <h2 class="project-heading">{{ project.name }}</h2>
+    <img
+      v-if="project.technigoProject"
+      src="/img/technigo-logo.webp"
+      alt="Technigo project logo"
+      class="school-logo"
+    />
+  </div>
 
     <p class="project-text">{{ project.info }}</p>
 
@@ -59,6 +67,19 @@ const popupProject = ref(null)
   flex-direction: column;
   gap: 5px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.school-logo {
+  width: 45px;
+  height: auto;
+  flex-shrink: 0;
 }
 
 .project-heading {
