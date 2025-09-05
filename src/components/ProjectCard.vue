@@ -14,20 +14,20 @@
 
     <div class="buttons">
       <a
-        v-if="project.netlify"
-        :href="project.netlify"
+        v-if="project.live"
+        :href="project.live"
         target="_blank"
         rel="noopener noreferrer"
       >
-        🌐 Netlify
+    🌐 View Live
       </a>
       <a
-        v-if="project.github"
-        :href="project.github"
+        v-if="project.code"
+        :href="project.code"
         target="_blank"
         rel="noopener noreferrer"
       >
-        💻 GitHub
+       💻 GitHub Repo
       </a>
       
     </div>
@@ -67,6 +67,7 @@ const popupProject = ref(null)
   flex-direction: column;
   gap: 5px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  /* margin-bottom: 20px; */
 }
 
 .card-header {
@@ -77,13 +78,13 @@ const popupProject = ref(null)
 }
 
 .school-logo {
-  width: 45px;
+  width: 40px;
   height: auto;
   flex-shrink: 0;
 }
 
 .project-heading {
-  font-size: 1.75rem;
+  font-size: 24px;
   font-weight: 800;
   text-transform: uppercase;
   background: linear-gradient(to right, #FFF4B8, #FFC7D3, #F9A8FF);
@@ -103,7 +104,7 @@ const popupProject = ref(null)
   flex-wrap: wrap;
   gap: 5px;
 }
-
+/* 
 .buttons a,
 .buttons button {
   font-size: 15px;
@@ -119,8 +120,30 @@ const popupProject = ref(null)
 
 .buttons a:hover,
 .buttons button:hover {
+
+} */
+
+.buttons a,
+.buttons button {
+  font-size: 14px;
+  padding: 6px 12px;
+  background: var(--primary);
+  color: var(--secondary);
+  border: none;
+  text-decoration: none;
+  font-weight: 400;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+/* Hover effect */
+.buttons a:hover,
+.buttons button:hover {
+  font-weight: 600;
   background: var(--secondary);
   color: var(--primary);
+
 }
 
 .tag-container {
@@ -128,20 +151,7 @@ const popupProject = ref(null)
   flex-wrap: wrap;
   gap: 6px;
   font-style: italic;
-  font-size: 14px;
+  font-size: 13px;
 }
 
-.close-button {
-  position: absolute;
-  top: 24px;
-  left: 24px;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  background: var(--primary);
-  color: #FFFFFF;
-  border: none;
-  font-size: 52px;
-  cursor: pointer;
-}
 </style>

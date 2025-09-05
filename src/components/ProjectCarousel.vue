@@ -42,10 +42,10 @@ const projects = projectData.projects
 
 .project-carousel {
   width: 100%;
-  padding: 25px 20px 0;
+  padding: 25px 20px 20px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: lef;
 }
 
 .carousel-wrapper {
