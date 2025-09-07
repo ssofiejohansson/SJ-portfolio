@@ -1,4 +1,5 @@
-# Vue 3 + Vite
+# Portfolio project 
 
 Sofie Johansson Personal Portfolio
+
 https://ssofiejohansson.netlify.app/
