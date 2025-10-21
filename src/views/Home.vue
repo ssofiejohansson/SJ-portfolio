@@ -3,9 +3,9 @@
     <SplitLayout>
       <template #text>
         <h2>🪩 Hej! Hallå!</h2>
-        <p>I am a creative frontend developer with a love for colors, clean code and CSS (yes, really). For the past decade I have lived in 10 different cities and soaked up all I could from life, cultures and people while working in hospitality. But I have always had this itch about wanting to use my creativity somehow and now I can do that with code.
+        <p>A creative frontend developer with a love for colors, clean code and CSS (yes, really). For the past decade I have lived in 10 different cities and soaked up all I could from life, cultures and people while working in hospitality. But I have always had this itch about wanting to use my creativity somehow and now I can do that with code.
         </p>
-        <p>Right now I am deep into JavaScript, React and building very cool things at <a href="https://www.technigo.io/" target="_blank">Technigo</a> — and honestly, I am loving it. Currently looking for a frontend role where I can keep growing, build more cool stuff and bring some positive energy to a team.</p>
+        <p>Recently graduated from <a href="https://www.technigo.io/" target="_blank">Technigo</a> and currently doing an internship at <a href="https://www.wilsoncreative.se/" target="_blank">Wilson Creative</a>  gaining hands-on experience with Vue and Nuxt on real client projects. I'm looking for a frontend role where I can keep growing, build some cool stuff and bring positive energy to a team.</p>
 
       <Icons/>
       </template>

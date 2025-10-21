@@ -1,5 +1,18 @@
 {
   "projects": [
+     {
+      "name": "Ölandsklubben",
+      "info": "Ölandsklubben is a content-managed website built with Vue and Nuxt and integrated with Prismic CMS. It serves as an information hub for Ölandsklubben in Stockholm, allowing administrators to easily publish news, meetings and events through a structured CMS interface. The site features custom page types, reusable content slices and dynamic filtering for upcoming and past meetings. It’s styled with modern responsive design principles using Tailwind CSS and optimized for accessibility and performance.",
+      "collab": "Solo project",
+      "tags": [
+        "Nuxt",
+        "Vue",
+        "Tailwind CSS",
+        "Prismic CMS"
+      ],
+      "live": "https://olandsklubben.netlify.app/",
+      "technigoProject": false
+    },
     {
       "name": "SubscriBee",
       "info": "SubscriBee is a subscription management app built with React that helps users track and organize their subscriptions. It uses Zustand for state management and Material Tailwind for styling. Users can add, sort, filter and set reminders for subscriptions. The backend is powered by Node.js, Express.js and MongoDB, with Nodemailer for email reminders and node-cron for scheduling. Data is saved with localStorage so subscriptions remain available for the user between sessions.",
