@@ -18,8 +18,10 @@
             <li>JSON</li>
             <li>PHP</li>
             <li>SQL</li>
-            <li>Vue</li>
+            <li>Vue</li>            
+            <li>Nuxt.js</li>
             <li>React</li>
+            <li>Next.js</li>
             <li>React Native</li>
             <li>Zustand</li>
             <li>Bootstrap</li>
@@ -34,6 +36,7 @@
             <li>Git</li>
             <li>Figma</li>
             <li>WordPress</li>
+            <li>Prismic</li>
           </ul>
         </div>
     </template>
